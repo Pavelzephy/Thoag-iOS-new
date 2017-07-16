@@ -1,0 +1,554 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		38DEAD1E1F1BCDEA00F5127E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38DEAD1D1F1BCDEA00F5127E /* AppDelegate.swift */; };
+		38DEAD201F1BCDEA00F5127E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38DEAD1F1F1BCDEA00F5127E /* ViewController.swift */; };
+		38DEAD231F1BCDEA00F5127E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38DEAD211F1BCDEA00F5127E /* Main.storyboard */; };
+		38DEAD261F1BCDEA00F5127E /* Thoag.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 38DEAD241F1BCDEA00F5127E /* Thoag.xcdatamodeld */; };
+		38DEAD281F1BCDEA00F5127E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 38DEAD271F1BCDEA00F5127E /* Assets.xcassets */; };
+		38DEAD2B1F1BCDEA00F5127E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38DEAD291F1BCDEA00F5127E /* LaunchScreen.storyboard */; };
+		38DEAD361F1BCDEA00F5127E /* ThoagTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38DEAD351F1BCDEA00F5127E /* ThoagTests.swift */; };
+		38DEAD411F1BCDEA00F5127E /* ThoagUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38DEAD401F1BCDEA00F5127E /* ThoagUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		38DEAD321F1BCDEA00F5127E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 38DEAD121F1BCDEA00F5127E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 38DEAD191F1BCDEA00F5127E;
+			remoteInfo = Thoag;
+		};
+		38DEAD3D1F1BCDEA00F5127E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 38DEAD121F1BCDEA00F5127E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 38DEAD191F1BCDEA00F5127E;
+			remoteInfo = Thoag;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		38DEAD1A1F1BCDEA00F5127E /* Thoag.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Thoag.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		38DEAD1D1F1BCDEA00F5127E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		38DEAD1F1F1BCDEA00F5127E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		38DEAD221F1BCDEA00F5127E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		38DEAD251F1BCDEA00F5127E /* Thoag.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Thoag.xcdatamodel; sourceTree = "<group>"; };
+		38DEAD271F1BCDEA00F5127E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		38DEAD2A1F1BCDEA00F5127E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		38DEAD2C1F1BCDEA00F5127E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		38DEAD311F1BCDEA00F5127E /* ThoagTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ThoagTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		38DEAD351F1BCDEA00F5127E /* ThoagTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThoagTests.swift; sourceTree = "<group>"; };
+		38DEAD371F1BCDEA00F5127E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		38DEAD3C1F1BCDEA00F5127E /* ThoagUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ThoagUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		38DEAD401F1BCDEA00F5127E /* ThoagUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThoagUITests.swift; sourceTree = "<group>"; };
+		38DEAD421F1BCDEA00F5127E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		38DEAD171F1BCDEA00F5127E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38DEAD2E1F1BCDEA00F5127E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38DEAD391F1BCDEA00F5127E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		38DEAD111F1BCDEA00F5127E = {
+			isa = PBXGroup;
+			children = (
+				38DEAD1C1F1BCDEA00F5127E /* Thoag */,
+				38DEAD341F1BCDEA00F5127E /* ThoagTests */,
+				38DEAD3F1F1BCDEA00F5127E /* ThoagUITests */,
+				38DEAD1B1F1BCDEA00F5127E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		38DEAD1B1F1BCDEA00F5127E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				38DEAD1A1F1BCDEA00F5127E /* Thoag.app */,
+				38DEAD311F1BCDEA00F5127E /* ThoagTests.xctest */,
+				38DEAD3C1F1BCDEA00F5127E /* ThoagUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		38DEAD1C1F1BCDEA00F5127E /* Thoag */ = {
+			isa = PBXGroup;
+			children = (
+				38DEAD1D1F1BCDEA00F5127E /* AppDelegate.swift */,
+				38DEAD1F1F1BCDEA00F5127E /* ViewController.swift */,
+				38DEAD211F1BCDEA00F5127E /* Main.storyboard */,
+				38DEAD271F1BCDEA00F5127E /* Assets.xcassets */,
+				38DEAD291F1BCDEA00F5127E /* LaunchScreen.storyboard */,
+				38DEAD2C1F1BCDEA00F5127E /* Info.plist */,
+				38DEAD241F1BCDEA00F5127E /* Thoag.xcdatamodeld */,
+			);
+			path = Thoag;
+			sourceTree = "<group>";
+		};
+		38DEAD341F1BCDEA00F5127E /* ThoagTests */ = {
+			isa = PBXGroup;
+			children = (
+				38DEAD351F1BCDEA00F5127E /* ThoagTests.swift */,
+				38DEAD371F1BCDEA00F5127E /* Info.plist */,
+			);
+			path = ThoagTests;
+			sourceTree = "<group>";
+		};
+		38DEAD3F1F1BCDEA00F5127E /* ThoagUITests */ = {
+			isa = PBXGroup;
+			children = (
+				38DEAD401F1BCDEA00F5127E /* ThoagUITests.swift */,
+				38DEAD421F1BCDEA00F5127E /* Info.plist */,
+			);
+			path = ThoagUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		38DEAD191F1BCDEA00F5127E /* Thoag */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 38DEAD451F1BCDEA00F5127E /* Build configuration list for PBXNativeTarget "Thoag" */;
+			buildPhases = (
+				38DEAD161F1BCDEA00F5127E /* Sources */,
+				38DEAD171F1BCDEA00F5127E /* Frameworks */,
+				38DEAD181F1BCDEA00F5127E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Thoag;
+			productName = Thoag;
+			productReference = 38DEAD1A1F1BCDEA00F5127E /* Thoag.app */;
+			productType = "com.apple.product-type.application";
+		};
+		38DEAD301F1BCDEA00F5127E /* ThoagTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 38DEAD481F1BCDEA00F5127E /* Build configuration list for PBXNativeTarget "ThoagTests" */;
+			buildPhases = (
+				38DEAD2D1F1BCDEA00F5127E /* Sources */,
+				38DEAD2E1F1BCDEA00F5127E /* Frameworks */,
+				38DEAD2F1F1BCDEA00F5127E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				38DEAD331F1BCDEA00F5127E /* PBXTargetDependency */,
+			);
+			name = ThoagTests;
+			productName = ThoagTests;
+			productReference = 38DEAD311F1BCDEA00F5127E /* ThoagTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		38DEAD3B1F1BCDEA00F5127E /* ThoagUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 38DEAD4B1F1BCDEA00F5127E /* Build configuration list for PBXNativeTarget "ThoagUITests" */;
+			buildPhases = (
+				38DEAD381F1BCDEA00F5127E /* Sources */,
+				38DEAD391F1BCDEA00F5127E /* Frameworks */,
+				38DEAD3A1F1BCDEA00F5127E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				38DEAD3E1F1BCDEA00F5127E /* PBXTargetDependency */,
+			);
+			name = ThoagUITests;
+			productName = ThoagUITests;
+			productReference = 38DEAD3C1F1BCDEA00F5127E /* ThoagUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		38DEAD121F1BCDEA00F5127E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Ashraf Ul Alam Tusher";
+				TargetAttributes = {
+					38DEAD191F1BCDEA00F5127E = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = PV5UBBA7V9;
+						ProvisioningStyle = Automatic;
+					};
+					38DEAD301F1BCDEA00F5127E = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = PV5UBBA7V9;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 38DEAD191F1BCDEA00F5127E;
+					};
+					38DEAD3B1F1BCDEA00F5127E = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = PV5UBBA7V9;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 38DEAD191F1BCDEA00F5127E;
+					};
+				};
+			};
+			buildConfigurationList = 38DEAD151F1BCDEA00F5127E /* Build configuration list for PBXProject "Thoag" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 38DEAD111F1BCDEA00F5127E;
+			productRefGroup = 38DEAD1B1F1BCDEA00F5127E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				38DEAD191F1BCDEA00F5127E /* Thoag */,
+				38DEAD301F1BCDEA00F5127E /* ThoagTests */,
+				38DEAD3B1F1BCDEA00F5127E /* ThoagUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		38DEAD181F1BCDEA00F5127E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38DEAD2B1F1BCDEA00F5127E /* LaunchScreen.storyboard in Resources */,
+				38DEAD281F1BCDEA00F5127E /* Assets.xcassets in Resources */,
+				38DEAD231F1BCDEA00F5127E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38DEAD2F1F1BCDEA00F5127E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38DEAD3A1F1BCDEA00F5127E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		38DEAD161F1BCDEA00F5127E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38DEAD201F1BCDEA00F5127E /* ViewController.swift in Sources */,
+				38DEAD1E1F1BCDEA00F5127E /* AppDelegate.swift in Sources */,
+				38DEAD261F1BCDEA00F5127E /* Thoag.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38DEAD2D1F1BCDEA00F5127E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38DEAD361F1BCDEA00F5127E /* ThoagTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38DEAD381F1BCDEA00F5127E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38DEAD411F1BCDEA00F5127E /* ThoagUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		38DEAD331F1BCDEA00F5127E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 38DEAD191F1BCDEA00F5127E /* Thoag */;
+			targetProxy = 38DEAD321F1BCDEA00F5127E /* PBXContainerItemProxy */;
+		};
+		38DEAD3E1F1BCDEA00F5127E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 38DEAD191F1BCDEA00F5127E /* Thoag */;
+			targetProxy = 38DEAD3D1F1BCDEA00F5127E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		38DEAD211F1BCDEA00F5127E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				38DEAD221F1BCDEA00F5127E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		38DEAD291F1BCDEA00F5127E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				38DEAD2A1F1BCDEA00F5127E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		38DEAD431F1BCDEA00F5127E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		38DEAD441F1BCDEA00F5127E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		38DEAD461F1BCDEA00F5127E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = PV5UBBA7V9;
+				INFOPLIST_FILE = Thoag/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.plx.Thoag;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		38DEAD471F1BCDEA00F5127E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = PV5UBBA7V9;
+				INFOPLIST_FILE = Thoag/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.plx.Thoag;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		38DEAD491F1BCDEA00F5127E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = PV5UBBA7V9;
+				INFOPLIST_FILE = ThoagTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.plx.ThoagTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Thoag.app/Thoag";
+			};
+			name = Debug;
+		};
+		38DEAD4A1F1BCDEA00F5127E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = PV5UBBA7V9;
+				INFOPLIST_FILE = ThoagTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.plx.ThoagTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Thoag.app/Thoag";
+			};
+			name = Release;
+		};
+		38DEAD4C1F1BCDEA00F5127E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = PV5UBBA7V9;
+				INFOPLIST_FILE = ThoagUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.plx.ThoagUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Thoag;
+			};
+			name = Debug;
+		};
+		38DEAD4D1F1BCDEA00F5127E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = PV5UBBA7V9;
+				INFOPLIST_FILE = ThoagUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.plx.ThoagUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Thoag;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		38DEAD151F1BCDEA00F5127E /* Build configuration list for PBXProject "Thoag" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38DEAD431F1BCDEA00F5127E /* Debug */,
+				38DEAD441F1BCDEA00F5127E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		38DEAD451F1BCDEA00F5127E /* Build configuration list for PBXNativeTarget "Thoag" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38DEAD461F1BCDEA00F5127E /* Debug */,
+				38DEAD471F1BCDEA00F5127E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		38DEAD481F1BCDEA00F5127E /* Build configuration list for PBXNativeTarget "ThoagTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38DEAD491F1BCDEA00F5127E /* Debug */,
+				38DEAD4A1F1BCDEA00F5127E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		38DEAD4B1F1BCDEA00F5127E /* Build configuration list for PBXNativeTarget "ThoagUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38DEAD4C1F1BCDEA00F5127E /* Debug */,
+				38DEAD4D1F1BCDEA00F5127E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		38DEAD241F1BCDEA00F5127E /* Thoag.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				38DEAD251F1BCDEA00F5127E /* Thoag.xcdatamodel */,
+			);
+			currentVersion = 38DEAD251F1BCDEA00F5127E /* Thoag.xcdatamodel */;
+			path = Thoag.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 38DEAD121F1BCDEA00F5127E /* Project object */;
+}
